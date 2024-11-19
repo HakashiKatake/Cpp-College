@@ -19,5 +19,11 @@ int main(){
     cout<<(4>=5)<<endl;
     cout<<(4!=5)<<endl;
 
+    //Logical
+    cout<<"Logical"<<endl;
+    cout<<( 5>3 && 6<=9 );
+    cout<<( 5>8 && 5<=9 );
+    
+
     
 }
