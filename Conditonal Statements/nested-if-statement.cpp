@@ -15,7 +15,7 @@
 using namespace std;
 
 int main() {
-    int number = 10;
+    int number;
     cout << "Enter a number: ";
     cin >> number;
     if (number > 0) {

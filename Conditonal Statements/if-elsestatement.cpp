@@ -13,7 +13,7 @@
 using namespace std;    
 
 int main() {
-    int number = 10;
+    int number;
     cout << "Enter a number: ";
     cin >> number;
     if (number > 0) {
@@ -23,3 +23,18 @@ int main() {
     }
     return 0;
 }
+
+int test(){
+    int a,b;
+    cout<<"Enter the two number"<<a<<b<<endl;
+    cin>>a>>b;
+    if(a>b){
+        cout<<"a is greater than b"<<endl;
+    }
+    else{
+        cout<<"b is greater than a"<<endl;
+    }
+    return 0;
+
+}
+
