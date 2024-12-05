@@ -12,3 +12,4 @@ int main(){
         cout<<"Your given number "<<num<<" is odd"<<endl;
     }
 }
+
