@@ -22,7 +22,15 @@
 
 
 //single is one base class one derived class
+//syntax 
+
+//class Subclass_name : access_mode Superclass_name
+
 //multiple is one base class multiple derived class
+//synatx
+
+//class Subclass_name : access_mode Superclass_name
+
 //hierarchical is multiple base class one derived class
 //hybrid is multiple base class multiple derived class
 //multilevel is one base class multiple derived class
