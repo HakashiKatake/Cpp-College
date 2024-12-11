@@ -39,14 +39,18 @@ int main()
 
     }
 
-    for (int i = 0; i < 5; i++)
-    {
-        cout << "Roll no: " << s[i].roll << endl;
-        cout << "Name: " << s[i].name << endl;
-        cout << "Marks in sub1: " << s[i].sub1 << endl;
-        cout << "Marks in sub2: " << s[i].sub2 << endl;
-        cout << "Marks in sub3: " << s[i].sub3 << endl;
-        cout << "Total: " << s[i].total << endl;
-        cout << "=====================================" << endl;
+    
+    
+    cout << "Roll No. | Name | S1 | S2 | S3 | Total" << endl;
+    cout << "-------------------------------------" << endl;
+
+    for (int i = 0; i < 5; i++) 
+        {
+            cout << s[i].roll << " | " << s[i].name << " | "
+            << s[i].sub1 << " | " << s[i].sub2 << " | "
+            << s[i].sub3 << " | " << s[i].total << endl;
+        }
+    return 0;
+
        
 }
